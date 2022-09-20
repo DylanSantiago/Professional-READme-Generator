@@ -3,8 +3,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-inquirer
-  .prompts([
+const promptUser = () => {
+    return inquirer.prompt([
     {
         type: 'input',
         message: 'What is your Github username?',
@@ -19,8 +19,8 @@ inquirer
     
     {
         type: 'input',
-        message: 'What is the name of your Github repository?',
-        name: 'githubRepo',
+        message: 'What is your projects title?',
+        name: 'title',
     },
 
     {
@@ -58,19 +58,18 @@ inquirer
         message: 'How did you test your project?',
         name: 'tests',
     },
-
-    {
-        type: 'input',
-        message: 'How did you test your project?',
-        name: 'tests',
-    },
-]);
+])};
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync('README.md', fileName)
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+}
+
 
 // Function call to initialize app
 init();
+promptUser();
