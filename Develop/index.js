@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
+// TODO: Create a function to write README file
 function writeToFile(readMeContent, data) {
 fs.writeFileSync('README.md', readMeContent)  
 }
@@ -68,18 +69,16 @@ const promptUser = () => {
         {
          type: 'list',
          message: 'Is your project licensed? If so, by whom?',
-         choices:['Apache 2.0', 'Boost Software','Eclipse Public', 'MIT', 'Mozilla Public', 'No license'],
+         choices:['Apache 2.0', 'MIT','Boost Software', 'No license'],
          name: 'license',
         }, 
     ])
    
-    // TODO: Create a function to write README file
     .then((data) => {
     const readMeContent = generateMarkdown(data)
     writeToFile(readMeContent, data)
     fs.writeFileSync('README.md', readMeContent)
-    .then(() => console.log('Successfully created README.md!'))
-    .catch((err) => console.error(err)); 
+    console.log('Successfully created README.md!')
     });
 };
 

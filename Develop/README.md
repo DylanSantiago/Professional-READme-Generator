@@ -1,14 +1,13 @@
-# dd
+# dd 
 # Table of Contents:
-- [dd](#dd)
-- [Table of Contents:](#table-of-contents)
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Reference](#reference)
-  - [Tests](#tests)
-  - [Contribution](#contribution)
-  - [Questions](#questions)
+* [Description](#description)
+* [Installation](#install)
+* [Usage](#usage)
+* [License](#license)
+* [Reference](#creds)
+* [Tests](#tests)
+* [Contribution](#add)
+* [Questions](#username)
 
 ## Description
 ff
@@ -19,6 +18,9 @@ gg
 ## Usage
 hh
 
+## License
+Apache 2.0
+
 ## Reference
 jj
 
@@ -26,10 +28,7 @@ jj
 kk
 
 ## Contribution
-ll
+ll 
 
 ## Questions
-aa
-
-
-
+Please feel free to follow me on Github:aa and if you have any questions or would like to collaborate on a project Email me at ss
