@@ -3,13 +3,18 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
+function writeToFile(readMeContent, data) {
+fs.writeFileSync('README.md', readMeContent)  
+}
+
+
 // TODO: Create an array of questions for user input // 
 const promptUser = () => {
     return inquirer.prompt([
         {
          type: 'input',
          message: 'What is your Github username?',
-         name: 'githubName',
+         name: 'username',
         },
 
         {
@@ -57,7 +62,7 @@ const promptUser = () => {
         {
          type: 'input',
          message: 'Can users contribute to your project?',
-         name: 'tests',
+         name: 'add',
         },
         
         {
@@ -73,6 +78,8 @@ const promptUser = () => {
     const readMeContent = generateMarkdown(data)
     writeToFile(readMeContent, data)
     fs.writeFileSync('README.md', readMeContent)
+    .then(() => console.log('Successfully created README.md!'))
+    .catch((err) => console.error(err)); 
     });
 };
 
