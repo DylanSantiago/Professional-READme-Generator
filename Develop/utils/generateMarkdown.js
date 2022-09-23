@@ -3,15 +3,15 @@
 function renderLicenseBadge(license) {
   switch(license) {
    case "Apache 2.0":
-   license ='<br/>[![License: Apache 2.0](https://img.shields.io/badge/License-Apache-blue)]'
+   license ='<br/>[![License: Apache 2.0](https://img.shields.io/badge/License-Apache-blue.svg)]'
    return license
    break;
    case "MIT":
-   license ='<br/>[![License: MIT](https://img.shields.io/badge/License-MIT-red)]'
+   license ='<br/>[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)]'
    return license
    break;
    case "Boost Software":
-   license ='<br/>[![License: Boost Software](https://img.shields.io/badge/License-Boost-green)]'
+   license ='<br/>[![License: Boost Software](https://img.shields.io/badge/License-Boost-green.svg)]'
    return license
    break;
    case " ":
@@ -71,9 +71,9 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   renderLicenseBadge(data.license)
-  renderLicenseSection(data.license)
-  renderLicenseLink(data.license)
   return `# ${data.title} 
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 # Table of Contents:
 * [Description](#description)
 * [Installation](#install)
@@ -106,7 +106,7 @@ ${data.tests}
 ${data.add} 
 
 ## Questions
-Please feel free to follow me on Github:${data.username} and if you have any questions or would like to collaborate on a project Email me at ${data.email}
+Please feel free to follow me on Github: ${data.username} and if you have any questions or would like to collaborate on a project Email me at ${data.email}
 `;
 }
 
