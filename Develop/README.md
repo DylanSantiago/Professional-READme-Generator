@@ -1,4 +1,4 @@
-# dd 
+# Professional-READme-Generator 
 # Table of Contents:
 * [Description](#description)
 * [Installation](#install)
@@ -10,25 +10,25 @@
 * [Questions](#username)
 
 ## Description
-ff
+This project is designed for coders to have a basic READme template to use for their projects.
 
 ## Installation
-gg
+No steps are necesarry to install, just contact me and I'll be happy to share the code
 
 ## Usage
-hh
+Filling out the prompts with correct and accurate information
 
 ## License
 Apache 2.0
 
 ## Reference
-jj
+The course material helped greatly in completing this assignment.
 
 ## Tests
-kk
+npm test
 
 ## Contribution
-ll 
+No contributions can be made, however suggestions can be messaged to me. 
 
 ## Questions
-Please feel free to follow me on Github:aa and if you have any questions or would like to collaborate on a project Email me at ss
+Please feel free to follow me on Github:DylanSantiago and if you have any questions or would like to collaborate on a project Email me at 2dylansantiago@gmail.com

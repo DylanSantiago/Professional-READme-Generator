@@ -3,15 +3,15 @@
 function renderLicenseBadge(license) {
   switch(license) {
    case "Apache 2.0":
-   license ="https://img.shields.io/badge/License-Apache-blue";
+   license ='<br/>[![License: Apache 2.0](https://img.shields.io/badge/License-Apache-blue)]'
    return license
    break;
    case "MIT":
-   license ="https://img.shields.io/badge/License-MIT-red";
+   license ='<br/>[![License: MIT](https://img.shields.io/badge/License-MIT-red)]'
    return license
    break;
    case "Boost Software":
-   license ="https://img.shields.io/badge/License-Boost-green";
+   license ='<br/>[![License: Boost Software](https://img.shields.io/badge/License-Boost-green)]'
    return license
    break;
    case " ":
@@ -26,15 +26,15 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch(license) {
    case "Apache 2.0":
-    license ="https://opensource.org/licenses/Apache-2.0";
+    license ='(https://opensource.org/licenses/Apache-2.0)'
     return license
     break;
     case "MIT":
-    license ="https://opensource.org/licenses/MIT";
+    license ='(https://opensource.org/licenses/MIT)'
     return license
     break;
     case "Boost Software":
-    license ="https://opensource.org/licenses/BSL-1.0";
+    license ='(https://opensource.org/licenses/BSL-1.0)'
     return license
     break;
     case " ":
