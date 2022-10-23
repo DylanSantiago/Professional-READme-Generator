@@ -14,7 +14,7 @@ function renderLicenseBadge(license) {
    license ='<br/>[![License: Boost Software](https://img.shields.io/badge/License-Boost-green.svg)]'
    return license
    break;
-   case " ":
+   case "none":
    license =" ";
    return license
    break;
@@ -37,7 +37,7 @@ function renderLicenseLink(license) {
     license ='(https://opensource.org/licenses/BSL-1.0)'
     return license
     break;
-    case " ":
+    case "none":
     license =" ";
     return license
     break;
@@ -60,7 +60,7 @@ function renderLicenseSection(license) {
     license ="Boost Software\n ## Licensed by Boost Software";
     return license
     break;
-    case " ":
+    case "none":
     license =" ";
     return license
     break;
