@@ -1,4 +1,4 @@
-#Professional ReadMe Generator
+# Professional ReadMe Generator
   ## Licensed by Boost Software
   <br/>[![License: Boost Software](https://img.shields.io/badge/License-Boost-green.svg)](https://opensource.org/licenses/BSL-1.0)
 
@@ -7,31 +7,24 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Reference](#reference)
 * [Tests](#tests)
 * [Contribution](#contribution)
 * [Questions](#questions)
 
 ## Description
-A tool made for Software Developers to create a well structured and professional ReadMe.
+A tool made for Software Developers looking for a professional ReadMe template.
 
 ## Installation
-Cloning the repository and then installing inquirer through npm.
+First, you must clone the repository. Next, you must add inquirer through NPM.
 
 ## Usage
-After cloning the repository, you must install inquirer through your command line and answer all necessary prompts.
-
-## License
-Boost Software
-
-## Reference
-Reviewing the class material helped me complete this assignment.
+After cloning and installing inquirer, you must enter your command line and run the app by entering 'node index.js and then answer all the prompts.
 
 ## Tests
-npm test
+No tests were necessary.
 
 ## Contribution
-No, however you can contact me with suggestions to improve this project. All feedback is welcomed. 
+No, however Users can reach out to me directly and provide feedback.  
 
 ## Questions
-Please feel free to follow me on Github: DylanSantiago and if you have any questions or would like to collaborate on a project Email me at 2dylansantiago@gmail.com
+Please feel free to follow me on Github: [DylanSantiago](https://github.com/DylanSantiago) and if you have any questions or would like to collaborate on a project Email me at 2dylansantiago@gmail.com
