@@ -27,5 +27,9 @@ No tests were necessary.
 ## Contribution
 No, however Users can reach out to me directly and provide feedback.  
 
+## Video Walkthrough
+
+https://drive.google.com/file/d/1u79u_Vn6N-tmQ_gLWZBYPSQN4gb3Wi8b/view
+
 ## Questions
 Please feel free to follow me on Github: [DylanSantiago](https://github.com/DylanSantiago) and if you have any questions or would like to collaborate on a project Email me at 2dylansantiago@gmail.com
