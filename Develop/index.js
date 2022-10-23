@@ -39,7 +39,7 @@ const promptUser = () => {
         {
          type: 'input',
          message: 'What steps are necessary to install your project?',
-         name: 'install',
+         name: 'installation',
         },
 
         {
@@ -51,7 +51,7 @@ const promptUser = () => {
         {
          type: 'input',
          message: 'Please add any references that helped you complete this project.',
-         name: 'creds',
+         name: 'reference',
         },
 
         {
@@ -63,7 +63,7 @@ const promptUser = () => {
         {
          type: 'input',
          message: 'Can users contribute to your project?',
-         name: 'add',
+         name: 'contribution',
         },
         
         {
