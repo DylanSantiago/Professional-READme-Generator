@@ -47,13 +47,7 @@ const promptUser = () => {
          message: 'Reproduce the steps to utilize your application.',
          name: 'usage',
         },
-
-        {
-         type: 'input',
-         message: 'Please add any references that helped you complete this project.',
-         name: 'reference',
-        },
-
+       
         {
          type: 'input',
          message: 'How did you test your project',
